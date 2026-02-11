@@ -1,8 +1,8 @@
-
 /**
  *
  * @author Nappe
  */
+
 public class Punto {
 
     double x;
@@ -41,6 +41,7 @@ public class Punto {
         this.label = nLabel;
     }
 
+    //este comentario es nomas pa comprobar si ya se puso bien mi nombre jejeje
     @Override
     public String toString() {
         return (this.label + " (" + this.x + ", " + this.y + ")");
